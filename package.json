@@ -1,10 +1,12 @@
 {
   "name": "monochrome-fashion",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "latest",
@@ -13,6 +15,8 @@
     "lucide-react": "latest",
     "framer-motion": "latest",
     "zustand": "latest",
-    "lucide-react": "latest"
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest"
   }
 }
